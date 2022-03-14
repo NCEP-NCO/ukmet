@@ -1,0 +1,91 @@
+#!/bin/sh
+
+date
+export PS4=' $SECONDS + '
+set -xa
+
+#
+# obtain unique process id (pid) and make temp directories
+#
+export DATA=${DATA:-${DATAROOT:?}/${jobid:?}}
+mkdir $DATA
+cd $DATA
+
+export cycle=${cycle:-t${cyc}z}
+
+####################################
+# Specify NET and RUN Name and model
+####################################
+export NET=${NET:-ukmet}
+export RUN=${RUN:-ukmet}
+
+export pgmout="OUTPUT.$$"
+export pgmerr=errfile
+
+####################################
+# SENDECF  - Flag Events on SMS
+# SENDDBN  - Issue DBNet Client Calls
+# SENDCOM  - Copy files to /com directory
+####################################
+export SENDCOM=${SENDCOM:-YES}
+export SENDDBN=${SENDDBN:-YES}
+export SENDECF=${SENDECF:-YES}
+
+export HOMEukmet=${HOMEukmet:-${PACKAGEROOT:?}/ukmet.${ukmet_ver}}
+export USHukmet=${USHukmet:-$HOMEukmet/ush}
+
+#
+# Run setpdy and initialize PDY variables
+#
+setpdy.sh
+. ./PDY
+
+export COMIN=${COMIN:-$(compath.py ${NET}/${ukmet_ver}/${NET}.${PDY})}
+export COMOUT=${COMOUT:-$(compath.py -o ${NET}/${ukmet_ver}/${NET}.${PDY})/gempak}
+
+if [ ! -d $COMOUT ]; then
+  mkdir -p -m 775 $COMOUT
+fi
+
+env
+
+#
+# Set up model and cycle specific variables
+#
+export fend=36
+export finc=6
+export fstart=06
+export model=ukmet
+export GRIB=ukmet
+export EXT=""
+export DBN_ALERT_TYPE=UKMET_GEMPAK_LAST
+
+#
+# FIRST RUN FOR GLOBAL GRIDS
+#
+########################################################
+# Execute the script.
+$USHukmet/ukmet_nawips.sh
+########################################################
+
+#
+# NOW RUN A SECOND TIME TO CREATE THE TROPICAL GRIDS
+#
+export RUN=ukmet2
+export GRIB=ukm25f
+export fstart=96
+export fend=144
+export finc=24
+cp $COMIN/${model}.${cycle}.${GRIB}72 ukmet2.grib
+########################################################
+# Execute the script.
+$USHukmet/ukmet_nawips.sh
+########################################################
+
+cat $pgmout
+
+##############################
+# Remove the Temporary working directory
+##############################
+cd ${DATAROOT}
+if [ $KEEPDATA = NO ]; then rm -rf $DATA; fi

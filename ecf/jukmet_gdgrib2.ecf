@@ -1,0 +1,46 @@
+#PBS -N ukmet_gdgrib2_%CYC%
+#PBS -j oe
+#PBS -S /bin/bash
+#PBS -q %QUEUE%
+#PBS -l walltime=00:30:00
+#PBS -l select=1:ncpus=1:mem=1GB
+#PBS -A %PROJ%-%PROJENVIR%
+#PBS -l debug=true
+
+# EXPORT list here
+
+export model=ukmet
+%include <head.h>
+%include <envir-p1.h>
+
+set -x
+module load intel/$intel_ver
+module load gempak/${gempak_ver:?}
+module list
+
+export cyc=%CYC%
+export CYC=${cyc}
+export cycle=t${cyc}z
+
+# CALL executable job script here
+$HOMEukmet/jobs/JUKMET_GDGRIB2
+
+if [ $? -ne 0 ]; then
+   ecflow_client --msg="***JOB ${ECF_NAME} ERROR RUNNING J-SCRIPT ***"
+   ecflow_client --abort
+   exit
+fi
+
+%include <tail.h>
+%manual
+
+######################################################################
+# Purpose:  To submit the job creates UKMET GEMPAK grids.
+######################################################################
+######################################################################
+# Job specific troubleshooting instructions:
+#  see generic troubleshoot manual page
+#
+######################################################################
+# include manual page below
+%end

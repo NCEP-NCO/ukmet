@@ -1,0 +1,760 @@
+ukwafs   EGRR      NO OF FILES = 11
+FILE01       
+HHAA99   IJKLMNOP            A             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            A             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            A             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            A             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            A             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            A             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            A             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            A             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            A             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            A             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            A             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            A             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            A             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            A             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            A             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            A             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            A             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            A             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            A             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            A             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            A             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            A             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            A             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            A             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            A             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            A             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            A             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            A             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            A             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            A             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            A             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            A             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            A             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            A             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            A             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            A             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            A             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            A             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            A             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            A             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            A             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            A             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            A             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            A             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            A             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            A             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            A             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            A             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            A             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            A             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            A             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            A             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            A             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            A             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            A             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            A             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            A             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            A             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            A             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            A             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            A             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            A             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            A             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            A             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            A             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            A             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            A             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            A             37    300 MB VV  N HEMI  2
+FILE02   
+HHAA99   IJKLMNOP            B             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            B             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            B             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            B             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            B             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            B             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            B             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            B             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            B             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            B             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            B             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            B             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            B             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            B             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            B             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            B             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            B             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            B             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            B             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            B             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            B             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            B             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            B             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            B             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            B             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            B             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            B             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            B             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            B             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            B             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            B             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            B             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            B             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            B             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            B             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            B             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            B             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            B             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            B             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            B             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            B             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            B             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            B             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            B             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            B             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            B             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            B             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            B             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            B             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            B             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            B             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            B             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            B             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            B             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            B             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            B             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            B             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            B             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            B             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            B             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            B             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            B             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            B             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            B             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            B             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            B             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            B             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            B             37    300 MB VV  N HEMI  2
+FILE03   
+HHAA99   IJKLMNOP            C             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            C             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            C             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            C             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            C             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            C             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            C             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            C             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            C             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            C             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            C             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            C             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            C             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            C             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            C             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            C             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            C             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            C             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            C             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            C             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            C             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            C             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            C             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            C             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            C             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            C             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            C             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            C             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            C             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            C             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            C             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            C             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            C             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            C             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            C             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            C             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            C             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            C             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            C             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            C             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            C             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            C             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            C             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            C             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            C             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            C             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            C             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            C             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            C             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            C             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            C             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            C             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            C             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            C             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            C             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            C             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            C             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            C             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            C             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            C             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            C             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            C             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            C             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            C             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            C             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            C             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            C             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            C             37    300 MB VV  N HEMI  2
+FILE04  
+HHAA99   IJKLMNOP            D             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            D             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            D             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            D             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            D             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            D             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            D             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            D             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            D             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            D             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            D             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            D             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            D             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            D             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            D             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            D             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            D             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            D             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            D             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            D             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            D             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            D             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            D             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            D             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            D             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            D             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            D             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            D             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            D             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            D             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            D             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            D             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            D             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            D             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            D             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            D             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            D             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            D             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            D             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            D             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            D             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            D             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            D             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            D             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            D             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            D             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            D             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            D             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            D             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            D             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            D             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            D             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            D             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            D             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            D             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            D             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            D             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            D             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            D             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            D             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            D             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            D             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            D             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            D             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            D             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            D             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            D             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            D             37    300 MB VV  N HEMI  2
+FILE05   
+HHAA99   IJKLMNOP            E             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            E             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            E             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            E             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            E             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            E             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            E             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            E             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            E             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            E             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            E             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            E             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            E             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            E             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            E             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            E             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            E             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            E             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            E             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            E             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            E             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            E             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            E             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            E             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            E             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            E             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            E             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            E             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            E             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            E             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            E             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            E             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            E             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            E             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            E             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            E             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            E             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            E             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            E             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            E             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            E             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            E             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            E             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            E             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            E             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            E             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            E             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            E             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            E             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            E             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            E             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            E             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            E             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            E             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            E             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            E             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            E             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            E             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            E             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            E             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            E             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            E             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            E             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            E             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            E             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            E             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            E             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            E             37    300 MB VV  N HEMI  2
+FILE06   
+HHAA99   IJKLMNOP            F             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            F             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            F             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            F             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            F             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            F             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            F             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            F             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            F             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            F             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            F             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            F             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            F             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            F             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            F             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            F             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            F             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            F             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            F             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            F             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            F             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            F             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            F             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            F             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            F             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            F             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            F             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            F             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            F             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            F             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            F             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            F             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            F             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            F             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            F             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            F             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            F             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            F             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            F             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            F             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            F             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            F             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            F             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            F             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            F             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            F             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            F             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            F             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            F             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            F             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            F             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            F             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            F             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            F             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            F             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            F             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            F             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            F             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            F             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            F             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            F             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            F             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            F             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            F             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            F             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            F             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            F             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            F             37    300 MB VV  N HEMI  2
+FILE07   
+HHAA99   IJKLMNOP            G             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            G             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            G             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            G             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            G             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            G             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            G             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            G             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            G             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            G             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            G             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            G             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            G             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            G             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            G             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            G             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            G             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            G             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            G             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            G             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            G             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            G             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            G             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            G             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            G             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            G             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            G             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            G             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            G             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            G             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            G             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            G             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            G             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            G             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            G             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            G             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            G             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            G             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            G             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            G             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            G             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            G             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            G             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            G             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            G             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            G             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            G             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            G             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            G             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            G             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            G             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            G             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            G             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            G             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            G             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            G             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            G             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            G             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            G             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            G             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            G             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            G             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            G             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            G             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            G             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            G             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            G             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            G             37    300 MB VV  N HEMI  2
+FILE08   
+HHAA99   IJKLMNOP            H             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            H             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            H             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            H             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            H             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            H             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            H             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            H             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            H             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            H             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            H             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            H             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            H             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            H             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            H             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            H             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            H             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            H             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            H             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            H             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            H             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            H             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            H             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            H             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            H             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            H             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            H             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            H             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            H             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            H             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            H             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            H             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            H             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            H             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            H             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            H             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            H             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            H             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            H             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            H             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            H             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            H             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            H             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            H             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            H             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            H             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            H             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            H             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            H             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            H             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            H             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            H             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            H             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            H             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            H             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            H             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            H             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            H             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            H             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            H             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            H             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            H             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            H             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            H             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            H             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            H             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            H             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            H             37    300 MB VV  N HEMI  2
+FILE09   
+HHAA99   IJKLMNOP            I             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            I             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            I             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            I             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            I             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            I             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            I             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            I             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            I             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            I             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            I             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            I             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            I             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            I             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            I             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            I             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            I             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            I             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            I             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            I             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            I             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            I             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            I             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            I             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            I             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            I             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            I             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            I             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            I             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            I             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            I             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            I             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            I             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            I             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            I             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            I             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            I             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            I             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            I             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            I             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            I             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            I             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            I             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            I             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            I             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            I             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            I             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            I             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            I             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            I             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            I             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            I             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            I             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            I             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            I             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            I             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            I             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            I             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            I             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            I             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            I             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            I             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            I             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            I             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            I             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            I             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            I             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            I             37    300 MB VV  N HEMI  2
+FILE10   
+HHAA99   IJKLMNOP            J             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            J             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            J             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            J             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            J             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            J             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            J             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            J             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            J             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            J             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            J             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            J             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            J             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            J             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            J             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            J             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            J             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            J             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            J             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            J             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            J             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            J             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            J             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            J             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            J             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            J             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            J             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            J             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            J             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            J             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            J             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            J             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            J             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            J             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            J             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            J             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            J             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            J             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            J             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            J             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            J             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            J             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            J             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            J             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            J             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            J             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            J             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            J             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            J             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            J             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            J             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            J             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            J             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            J             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            J             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            J             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            J             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            J             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            J             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            J             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            J             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            J             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            J             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            J             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            J             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            J             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            J             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            J             37    300 MB VV  N HEMI  2
+FILE11   
+HHAA99   IJKLMNOP            K             37    1K  MB HGT N HEMI  2
+HHAA85   IJKLMNOP            K             37    850 MB HGT N HEMI  2
+HHAA70   IJKLMNOP            K             37    700 MB HGT N HEMI  2
+HHAA50   IJKLMNOP            K             37    500 MB HGT N HEMI  2
+HHAA40   IJKLMNOP            K             37    400 MB HGT N HEMI  2
+HHAA30   IJKLMNOP            K             37    300 MB HGT N HEMI  2
+HHAA25   IJKLMNOP            K             37    250 MB HGT N HEMI  2
+HHAA20   IJKLMNOP            K             37    200 MB HGT N HEMI  2
+HHAA15   IJKLMNOP            K             37    150 MB HGT N HEMI  2
+HHAA10   IJKLMNOP            K             37    100 MB HGT N HEMI  2
+HHAA07   IJKLMNOP            K             37     70 MB HGT N HEMI  2
+HHAA05   IJKLMNOP            K             37     50 MB HGT N HEMI  2
+HTAA99   IJKLMNOP            K             37    1K  MB TEM N HEMI  2
+HTAA85   IJKLMNOP            K             37    850 MB TEM N HEMI  2
+HTAA70   IJKLMNOP            K             37    700 MB TEM N HEMI  2
+HTAA50   IJKLMNOP            K             37    500 MB TEM N HEMI  2
+HTAA40   IJKLMNOP            K             37    400 MB TEM N HEMI  2
+HTAA30   IJKLMNOP            K             37    300 MB TEM N HEMI  2
+HTAA25   IJKLMNOP            K             37    250 MB TEM N HEMI  2
+HTAA20   IJKLMNOP            K             37    200 MB TEM N HEMI  2
+HTAA15   IJKLMNOP            K             37    150 MB TEM N HEMI  2
+HTAA10   IJKLMNOP            K             37    100 MB TEM N HEMI  2
+HTAA07   IJKLMNOP            K             37     70 MB TEM N HEMI  2
+HTAA05   IJKLMNOP            K             37     50 MB TEM N HEMI  2
+HUAA99   IJKLMNOP            K             37    1K  MB U   N HEMI  2
+HUAA85   IJKLMNOP            K             37    850 MB U   N HEMI  2
+HUAA70   IJKLMNOP            K             37    700 MB U   N HEMI  2
+HUAA50   IJKLMNOP            K             37    500 MB U   N HEMI  2
+HUAA40   IJKLMNOP            K             37    400 MB U   N HEMI  2
+HUAA30   IJKLMNOP            K             37    300 MB U   N HEMI  2
+HUAA25   IJKLMNOP            K             37    250 MB U   N HEMI  2
+HUAA20   IJKLMNOP            K             37    200 MB U   N HEMI  2
+HUAA15   IJKLMNOP            K             37    150 MB U   N HEMI  2
+HUAA10   IJKLMNOP            K             37    100 MB U   N HEMI  2
+HUAA07   IJKLMNOP            K             37     70 MB U   N HEMI  2
+HUAA05   IJKLMNOP            K             37     50 MB U   N HEMI  2
+HVAA99   IJKLMNOP            K             37    1K  MB V   N HEMI  2
+HVAA85   IJKLMNOP            K             37    850 MB V   N HEMI  2
+HVAA70   IJKLMNOP            K             37    700 MB V   N HEMI  2
+HVAA50   IJKLMNOP            K             37    500 MB V   N HEMI  2
+HVAA40   IJKLMNOP            K             37    400 MB U   N HEMI  2
+HVAA30   IJKLMNOP            K             37    300 MB V   N HEMI  2
+HVAA25   IJKLMNOP            K             37    250 MB V   N HEMI  2
+HVAA20   IJKLMNOP            K             37    200 MB V   N HEMI  2
+HVAA15   IJKLMNOP            K             37    150 MB V   N HEMI  2
+HVAA10   IJKLMNOP            K             37    100 MB V   N HEMI  2
+HVAA07   IJKLMNOP            K             37     70 MB V   N HEMI  2
+HVAA05   IJKLMNOP            K             37     50 MB V   N HEMI  2
+HRAA99   IJKLMNOP            K             37    1K  MB RH  N HEMI  2
+HRAA85   IJKLMNOP            K             37    850 MB RH  N HEMI  2
+HRAA70   IJKLMNOP            K             37    700 MB RH  N HEMI  2
+HRAA50   IJKLMNOP            K             37    500 MB RH  N HEMI  2
+HPAA89   IJKLMNOP            K             37    MSL PRES   N HEMI  2
+HTAA98   IJKLMNOP            K             37    SFC TEM    N HEMI  2
+HUAA98   IJKLMNOP            K             37    SFC U      N HEMI  2
+HVAA98   IJKLMNOP            K             37    SFC V      N HEMI  2
+HPAA97   IJKLMNOP            K             37    TRP PRES   N HEMI  2
+HTAA97   IJKLMNOP            K             37    TRP TEM    N HEMI  2
+HHAA97   IJKLMNOP            K             37    TRP HGT    N HEMI  2
+HUAA96   IJKLMNOP            K             37    MWSL U GRD N HEMI  2
+HVAA96   IJKLMNOP            K             37    MWSL V GRD N HEMI  2
+HPAA96   IJKLMNOP            K             37    MWSL PRES  N HEMI  2
+HHAA96   IJKLMNOP            K             37    MWSL HGT   N HEMI  2
+HOAA85   IJKLMNOP            K             37    850 MB VV  N HEMI  2
+HOAA70   IJKLMNOP            K             37    700 MB VV  N HEMI  2
+HOAA50   IJKLMNOP            K             37    500 MB VV  N HEMI  2
+HOAA40   IJKLMNOP            K             37    400 MB VV  N HEMI  2
+HOAA30   IJKLMNOP            K             37    300 MB VV  N HEMI  2

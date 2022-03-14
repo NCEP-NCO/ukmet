@@ -1,0 +1,89 @@
+#!/bin/sh
+
+date
+export PS4='$SECONDS + '
+set -xa
+
+# #### 12/13/99 ###############################
+# SETUP UKMET SHELL VARIABLES
+# #############################################
+
+####################################
+# obtain unique process id (pid) and make temp directory
+####################################
+export DATA=${DATA:-${DATAROOT:?}/${jobid:?}}
+mkdir $DATA
+cd $DATA
+
+export cycle=t${cyc}z
+
+####################################
+# Specify NET and RUN Name and model
+####################################
+export NET=${NET:-ukmet}
+export RUN=${RUN:-ukmet}
+
+export pgmout="OUTPUT.$$"
+export pgmerr=errfile
+
+####################################
+# SENDECF  - Flag Events on ECFLOW
+# SENDCOM  - Copy Files From TMPDIR to $COMOUT
+# SENDDBN  - Issue DBNet Client Calls
+####################################
+export SENDCOM=${SENDCOM:-YES}
+export SENDECF=${SENDECF:-YES}
+export SENDDBN=${SENDDBN:-YES}
+
+####################################
+# Specify Execution Areas
+####################################
+export HOMEukmet=${HOMEukmet:-${PACKAGEROOT:?}/ukmet.${ukmet_ver}}
+export PARMukmet=${PARMukmet:-$HOMEukmet/parm}
+export USHukmet=${USHukmet:-$HOMEukmet/ush}
+export EXECukmet=${EXECukmet:-$HOMEukmet/exec}
+export SCRIPTSukmet=${SCRIPTSukmet:-$HOMEukmet/scripts}
+
+##############################
+# Run setpdy and initialize PDY variables
+##############################
+setpdy.sh
+. ./PDY
+
+##############################################
+# Define COM directories
+##############################################
+export DCOMIN=${DCOMIN:-${DCOMROOT:?}}
+#export DCOM=${DCOM:-${DCOMIN:?}/${PDY}/wgrbbul/${RUN}}
+#export COMIN=${COMIN:-$(compath.py -o ${NET}/${ukmet_ver}/${NET}.${PDY})}
+export COMOUT=${COMOUT:-$(compath.py -o ${NET}/${ukmet_ver}/${NET}.${PDY})/gempak}
+mkdir -m 775 -p $COMOUT
+
+env
+
+#############################################################
+# Execute the script
+$SCRIPTSukmet/exukmet_early.sh
+export err=$?; err_chk
+
+export DBN_ALERT_TYPE=${DBN_ALERT_TYPE:-UKMET_GEMPAK}
+export COMIN=$DATA
+
+#############################################################
+# Run the NAGRIB processing
+$USHukmet/ukmet_gempak.sh
+export err=$?; err_chk
+#############################################################
+
+cat $pgmout
+
+msg="ENDED NORMALLY."
+postmsg "$jlogfile" "$msg"
+
+##############################
+# Remove the Temporary working directory
+##############################
+date
+
+cd ${DATAROOT}
+if [ $KEEPDATA = NO ];  then rm -rf $DATA; fi

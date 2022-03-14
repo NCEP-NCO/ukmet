@@ -1,0 +1,71 @@
+#!/bin/ksh
+
+########################################
+# Runs UKMET HIRES GEMPAK Processing
+########################################
+
+# ###################################
+# SET SHELL PROCESSING VARIABLES
+# ###################################
+date
+export PS4='$SECONDS + ' 
+set -xa
+# 
+# obtain unique process id (pid) and make temp directories
+#
+export DATA=${DATA:-${DATAROOT:?}/${jobid:?}}
+mkdir $DATA
+cd $DATA 
+
+export pgmout="OUTPUT.$$"
+
+export cycle=${cycle:-t${cyc}z}
+
+####################################
+# Specify NET and RUN Name and model
+####################################
+export NET=${NET:-ukmet}
+export RUN=${RUN:-ukmet_hires}
+export res=hr
+export DBN_ALERT_TYPE=${DBN_ALERT_TYPE:-UKMET_HIRES_GEMPAK}
+
+####################################
+# SENDECF  - Flag Events on ecFLOW
+# SENDDBN  - Issue DBNet Client Calls
+# SENDCOM  - Copy files to /com directory
+####################################
+export SENDCOM=${SENDCOM:-YES}
+export SENDDBN=${SENDDBN:-YES}
+export SENDECF=${SENDECF:-YES}
+
+export HOMEukmet=${HOMEukmet:-${PACKAGEROOT:?}/ukmet.${ukmet_ver}}
+export FIXukmet=${FIXukmet:-$HOMEukmet/fix}
+export USHukmet=${USHukmet:-$HOMEukmet/ush}
+export SCRIPTSukmet=${SCRIPTSukmet:-$HOMEukmet/scripts}
+
+# Run setpdy and initialize PDY variables
+setpdy.sh
+. ./PDY
+
+#export DCOMIN=${DCOMIN:-${DCOMROOT:?}/prod}
+export DCOMIN=${DCOMIN:-${DCOMROOT:?}/${PDY}/wgrbbul/${RUN}}
+#export COMOUT=${COMOUT:-${COMROOT:?}/${NET}/${envir}/${NET}.${PDY}/gempak}
+export COMOUT=${COMOUT:-$(compath.py -o ${NET}/${ukmet_ver}/${NET}.${PDY})/gempak}
+
+if [ ! -f $COMOUT ] ; then
+  mkdir -p -m 775 $COMOUT
+fi
+ 
+env
+
+########################################################
+# Execute the script.
+  $SCRIPTSukmet/exukmet_hires_gempak.sh ${FH_end}
+########################################################
+
+cat $pgmout
+
+cd ${DATAROOT}
+if [ $KEEPDATA = NO ]; then rm -rf $DATA; fi
+
+date

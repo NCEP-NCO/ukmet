@@ -1,0 +1,72 @@
+#!/bin/sh
+
+########################################
+# Creates UKMET model graphics
+########################################
+
+date
+export PS4=' $SECONDS + '
+set -xa
+
+###### 04/01/2006 ###################
+# SET SHELL PROCESSING VARIABLES
+#####################################
+
+# obtain unique process id (pid) and make temp directories
+#
+export DATA=${DATA:-${DATAROOT:?}/${jobid:?}}
+mkdir -p $DATA
+cd $DATA
+
+export cycle=${cycle:-t${cyc}z}
+
+####################################
+# Specify NET and RUN Name and model
+####################################
+export NET=${NET:-ukmet}
+export RUN=${RUN:-ukmet}
+
+export pgmout="OUTPUT.$$"
+export pgmerr=errfile
+
+####################################
+# SENDECF  - Flag Events on ECFLOW
+# SENDDBN  - Issue DBNet Client Calls
+# SENDCOM  - Copy files to /com directory
+####################################
+export SENDCOM=${SENDCOM:-YES}
+export SENDDBN=${SENDDBN:-YES}
+export SENDECF=${SENDECF:-YES}
+
+export HOMEukmet=${HOMEukmet:-${PACKAGEROOT:?}/ukmet.${ukmet_ver}}
+export EXECukmet=${EXECukmet:-$HOMEukmet/exec}
+export FIXukmet=${FIXukmet:-$HOMEukmet/fix}
+export USHukmet=${USHukmet:-$HOMEukmet/ush}
+export SCRIPTSukmet=${SCRIPTSukmet:-$HOMEukmet/scripts}
+
+export USHgempak=${USHgempak:-$USHukmet}
+
+# Run setpdy and initialize PDY variables
+setpdy.sh
+. ./PDY
+
+export COMIN=${COMIN:-$(compath.py ${NET}/${ukmet_ver}/${NET}.${PDY})/gempak}
+export COMOUT=${COMOUT:-$(compath.py -o ${NET}/${ukmet_ver}/${NET}.${PDY})}
+export COMOUTwmo=${COMOUTwmo:-$COMOUT/wmo}
+mkdir -p $COMOUTwmo
+
+msg="$job HAS BEGUN on `hostname`"
+postmsg "$jlogfile" "$msg"
+
+########################################################
+# Execute the script.
+$SCRIPTSukmet/exukmet_gempak_graphics.sh
+########################################################
+
+##############################
+# Remove the Temporary working directory
+##############################
+cd ${DATAROOT}
+if [ $KEEPDATA = NO ]; then rm -rf $DATA; fi
+
+date

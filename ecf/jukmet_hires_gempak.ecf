@@ -1,0 +1,52 @@
+#PBS -N ukmet_hires_gempak_f%FH%_%CYC%
+#PBS -j oe
+#PBS -S /bin/bash
+#PBS -q %QUEUE%
+#PBS -l walltime=00:15:00
+#PBS -l select=1:ncpus=1:mem=1GB
+#PBS -A %PROJ%-%PROJENVIR%
+#PBS -l debug=true
+
+# EXPORT list here
+
+export model=ukmet
+%include <head.h>
+%include <envir-p1.h>
+
+set -x
+module load PrgEnv-intel/${PrgEnv_intel_ver}
+module load craype/${craype_ver}
+module load intel/${intel_ver}
+module load cray-mpich/${cray_mpich_ver}
+module load cray-pals/${cray_pals_ver}
+module load libjpeg/${jpeg_ver}
+module load grib_util/${grib_util_ver:?}
+module load gempak/${gempak_ver:?}
+module list
+
+export cyc=%CYC%
+export CYC=${cyc}
+export cycle=t${cyc}z
+export res=%RES%
+export FH_end=%FH%
+
+# CALL executable job script here
+${HOMEukmet}/jobs/JUKMET_HIRES_GEMPAK
+
+if [ $? -ne 0 ]; then
+   ecflow_client --msg="***JOB ${ECF_NAME} ERROR RUNNING J-SCRIPT ***"
+   ecflow_client --abort
+   exit
+fi
+
+%include <tail.h>
+%manual
+
+######################################################################
+# Job specific troubleshooting instructions:
+#
+# If the job fails due to missing data set it to complete. Currently
+# UKMET is having some problems sending datasets to NCO.
+######################################################################
+
+%end
